@@ -1,7 +1,10 @@
+import { products } from "../../../data"
+import ProductDetail from "../ProductDetail"
+
 const ItemListContainer = ({greeting}) => {
     return(
         <div>
-            <h1>{greeting}</h1>
+            {products.map(prod=><ProductDetail product={prod}/>)}
         </div>
     )
 }
