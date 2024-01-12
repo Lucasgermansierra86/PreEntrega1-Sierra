@@ -1,9 +1,9 @@
 
-export const products = [
-    { id: 'M15', name: 'Tuerca M15', description: 'Diseño de tuerca M15 en Fusion 360', image: "/assets/ImagenesProducts/IMG_1835.jpg" },
-    { id: 'PORTA LAPICES', name: 'Porta lapices 3D ', description: 'Porta lapices con diseño personalizado para regalo empresarial', image: "/assets/ImagenesProducts/IMG_1836.jpg" },
-    { id: 'HP LOVECRAFT', name: 'Busto de HP LOVECRAFT', description: 'Impresion de busto 3D en pla del escritor HP LOVECRAFT', image: "/assets/ImagenesProducts/IMG_1837.jpg"},
-    { id: 'BATMAN', name: 'BATMAN ARKHAM CITY', description: 'Busto del personaje Batman de Arkham City', image: "/assets/ImagenesProducts/IMG_1838.jpg"},
-    { id: 'SOPORTE', name: 'Soporte play 4', description: 'Soporte de joystick para play 4', image: "/assets/ImagenesProducts/IMG_1839.jpg"},
-    { id: 'SHARK', name: 'Producto Articulado', description: 'Tiburon articulado impreso en pla', image: "/assets/ImagenesProducts/IMG_1840.jpg"},
+export const productsData = [
+    { id: 'M15', name: 'Tuerca M15', description: 'Diseño de tuerca M15 en Fusion 360', image: "C", category: "diseño-tuercas"}, 
+    { id: 'PORTA LAPICES', name: 'Porta lapices 3D ', description: 'Porta lapices con diseño personalizado para regalo empresarial', image: "https://firebasestorage.googleapis.com/v0/b/proyecto-react-de086.appspot.com/o/IMG_1836.jpg?alt=media&token=9e8cb49a-494c-4906-9807-c415625f1f4c", category: "diseño-novedades" },
+    { id: 'HP LOVECRAFT', name: 'Busto de HP LOVECRAFT', description: 'Impresion de busto 3D en pla del escritor HP LOVECRAFT', image: "https://firebasestorage.googleapis.com/v0/b/proyecto-react-de086.appspot.com/o/IMG_1837.jpg?alt=media&token=3bbe109e-4420-49c5-8d51-e2168dd02b5c", category: "bustos"},
+    { id: 'BATMAN', name: 'BATMAN ARKHAM CITY', description: 'Busto del personaje Batman de Arkham City', image: "https://firebasestorage.googleapis.com/v0/b/proyecto-react-de086.appspot.com/o/IMG_1838.jpg?alt=media&token=70f69e3d-4139-449b-a2c1-85fb966bdef1", category: "bustos"},
+    { id: 'SOPORTE', name: 'Soporte play 4', description: 'Soporte de joystick para play 4', image: "https://firebasestorage.googleapis.com/v0/b/proyecto-react-de086.appspot.com/o/IMG_1839.jpg?alt=media&token=c574c89c-b1cb-4767-a011-6835370af572", category: "soporte-3d"},
+    { id: 'SHARK', name: 'Producto Articulado', description: 'Tiburon articulado impreso en pla', image: "https://firebasestorage.googleapis.com/v0/b/proyecto-react-de086.appspot.com/o/IMG_1840.jpg?alt=media&token=f8d316d5-96a6-4a2a-b59b-818370a43001", category: "articulados-3d"},
   ];

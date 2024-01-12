@@ -1,14 +1,12 @@
-import React from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
-import { FaShoppingCart } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
-
+import React from "react";
+import { Navbar, Nav } from "react-bootstrap";
+import { FaShoppingCart } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import CartWidget from "../CartWidget/CartWidget";
 
 const NavBar = () => {
-  const cartItemCount = 3; // 
-
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar className="d-flex justify-content-between " bg="light" expand="lg">
       <Navbar.Brand as={Link} to="/">
         FUSION 3D
       </Navbar.Brand>
@@ -18,26 +16,27 @@ const NavBar = () => {
           <Nav.Link as={Link} to="/">
             Inicio
           </Nav.Link>
-          <Nav.Link as={Link} to="/category/1">
-            Productos
+          <Nav.Link as={Link} to="/category/diseño-tuercas">
+            Diseño-tuercas
           </Nav.Link>
-          {}
-          <Nav.Link as={Link} to="/category/2">
-            Novedades
+
+          <Nav.Link as={Link} to="/category/diseño-novedades">
+            Diseño-Novedades
           </Nav.Link>
-          {}
-          <Nav.Link as={Link} to="/category/3">
-            Ofertas
+
+          <Nav.Link as={Link} to="/category/bustos">
+            Bustos
           </Nav.Link>
-          {}
-          <Nav.Link as={Link} to="/contacto">
-            Contacto
+
+          <Nav.Link as={Link} to="/category/soporte-3d">
+            Soportes
           </Nav.Link>
-          {}
-          <Nav.Link as={Link} to="/item/123">
-            {}
-            <FaShoppingCart />
-            {cartItemCount > 0 && <span className="cart-item-count">{cartItemCount}</span>}
+
+          <Nav.Link as={Link} to="/category/articulados-3d">
+            Articulados 3d
+          </Nav.Link>
+          <Nav.Link as={Link} to="/cart">
+            <CartWidget />
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>
